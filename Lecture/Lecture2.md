@@ -77,6 +77,9 @@ Player player2 = new Player();
 // Player1とPlayer2はPlayerクラスから生成された
 //別々のインスタンス=それぞれ保持しているデータは独立している。
 ```
+※イメージ図
+![image](https://user-images.githubusercontent.com/85465441/197346720-38415671-0eed-4162-a650-d3d6b773c001.png)
+
 以降の例文では、Playerクラスは既に定義されているものとする。  
 
 ### インスタンスの配列
