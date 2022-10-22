@@ -276,13 +276,13 @@ public class Main {
 ## 課題1-1
 
 System.out.println()関数を用いて自分の情報を表示させる</br>
-実行結果:`B21xxxxx Kazuki Otomo`
+実行結果:`B21xxxxx Tomoko Fujii`
 
 ## 課題1-2
 
 **int型変数studentNumberに学籍番号の数値の部分を代入**し、自分の情報を表示させる</br>
 ただし,**studentNumberを文字列連結させて表示させること**</br>
-実行結果:`B21xxxxx Kazuki Otomo`
+実行結果:`B21xxxxx Tomoko Fujii`
 
 ## 課題1-3
 
