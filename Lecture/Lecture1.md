@@ -31,7 +31,7 @@
 * Project locationに ”prmn2022a” フォルダへのパスを入れる
 * Finishを押す
 
-![image](https://user-images.githubusercontent.com/67196994/118081830-11b06900-b3f7-11eb-9856-13c1234c2568.png)
+![image](https://user-images.githubusercontent.com/85465441/197342066-9804f7bb-5231-478d-8bb0-3844b0614481.png)
 
 ### パッケージの作成
 
@@ -52,7 +52,7 @@
 
 今後クラス作成をするときは、各lectureXXパッケージ内に作成すること
 
-![image](https://user-images.githubusercontent.com/85465441/197341959-c27fce01-e7a2-4eba-8291-538e9146fa2d.png)
+![image](https://user-images.githubusercontent.com/85465441/197342085-f66a8e15-0e1c-4740-9587-8f7ab9c17a33.png)
 
 ## 何もしないプログラム
 
