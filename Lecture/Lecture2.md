@@ -78,7 +78,7 @@ Player player2 = new Player();
 //別々のインスタンス=それぞれ保持しているデータは独立している。
 ```
 ※イメージ図
-![image](https://user-images.githubusercontent.com/85465441/197346829-3db33390-1746-4947-84b0-35e1054ee121.png)
+![image](https://user-images.githubusercontent.com/85465441/197346947-65c59d18-8c88-4c03-896c-8369cd4cb1bd.png)
 
 以降の例文では、Playerクラスは既に定義されているものとする。  
 
