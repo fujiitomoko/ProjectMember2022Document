@@ -52,7 +52,7 @@
 
 今後クラス作成をするときは、各lectureXXパッケージ内に作成すること
 
-![image](https://user-images.githubusercontent.com/67196994/118081976-576d3180-b3f7-11eb-80fa-5a453cf7334a.png)
+![image](https://user-images.githubusercontent.com/85465441/197341959-c27fce01-e7a2-4eba-8291-538e9146fa2d.png)
 
 ## 何もしないプログラム
 
