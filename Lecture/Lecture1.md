@@ -219,7 +219,7 @@ default:
 ```java
 String series = "XS";  //Java SE 7より文字列のswitchが可能に
 switch(series){
-case "X": //文字列の場合条件の""を忘れないように
+case "X": //文字列の場合条件の'"'を忘れないように
 	System.out.println("Face IDに対応");
 	break;
 case "11":
