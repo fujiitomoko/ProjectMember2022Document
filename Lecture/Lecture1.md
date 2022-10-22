@@ -16,7 +16,12 @@
   * メンションを付けて送信すると、相手に通知されますが緊急時以外は極力避けましょう。
 
 ### プロジェクトの作成
-* Cドライブ直下に ”prmn2022a” フォルダを作る
+* 【Windows】 Cドライブ直下に ”prmn2022a” フォルダを作る
+![image](https://user-images.githubusercontent.com/67196994/118081830-11b06900-b3f7-11eb-9856-13c1234c2568.png)
+
+* 【Mac】　MacintoshHD>ユーザ>ユーザ名　の下に"prmn2022a"フォルダを作る
+![image](https://user-images.githubusercontent.com/85465441/197341556-b677bd17-95f5-42d3-ae69-812cf5b34067.png)
+
 * IntelliJを起動後、Create New Project を選択する
 * 左側のメニューから Java を選択
 * 上部の Project SDK で 11 （この数字は異なるかも） を選択し、Nextを押す
