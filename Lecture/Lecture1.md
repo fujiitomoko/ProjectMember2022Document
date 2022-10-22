@@ -17,9 +17,11 @@
 
 ### プロジェクトの作成
 * 【Windows】 Cドライブ直下に ”prmn2022a” フォルダを作る
-![image](https://user-images.githubusercontent.com/67196994/118081830-11b06900-b3f7-11eb-9856-13c1234c2568.png)
+
+![image](https://user-images.githubusercontent.com/85465441/197341856-9763d53c-3af7-4131-bf76-7332c71fdbb6.png)
 
 * 【Mac】　MacintoshHD>ユーザ>ユーザ名　の下に"prmn2022a"フォルダを作る
+
 ![image](https://user-images.githubusercontent.com/85465441/197341556-b677bd17-95f5-42d3-ae69-812cf5b34067.png)
 
 * IntelliJを起動後、Create New Project を選択する
