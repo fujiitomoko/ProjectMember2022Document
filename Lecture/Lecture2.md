@@ -158,7 +158,7 @@ class Student {
 インスタンスのフィールドやメソッドはドット演算子 “.” を用いることで利用することが出来る。
 
 ```java
-// Studentにpromotionメソッドが定義されているものとする
+// StudentにsumOfCreditsメソッドが定義されているものとする
 
 Student student = new Student("Tomoko Fujii" , "b2202020" , 20);//インスタンス化
 
