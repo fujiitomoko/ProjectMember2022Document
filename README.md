@@ -2,5 +2,5 @@
 
 [・Lecture1 チュートリアル](Lecture/Lecture1.md)
 
-[・Lecture2 チュートリアル](Lecture/Lecture2.md)
+[・Lecture2 クラスとインスタンス](Lecture/Lecture2.md)
 
