@@ -78,7 +78,7 @@ Student student2 = new Student();
 //別々のインスタンス=それぞれ保持しているデータは独立している。
 ```
 ※イメージ図
-![image](https://user-images.githubusercontent.com/85465441/197346947-65c59d18-8c88-4c03-896c-8369cd4cb1bd.png)
+![image](https://user-images.githubusercontent.com/85465441/197378806-cd7323b5-b5f2-4a03-90b2-9c4444560a7f.png)
 
 以降の例文では、Studentクラスは既に定義されているものとする。  
 
@@ -120,13 +120,13 @@ Javaではインスタンス化をすると同時に呼び出される特別な�
 
 ```java
 class Student {
-	Student(String name , String gakuseki , int credits){ 
+	Student(){ 
 	// インスタンス化した時、最初に呼ばれるメソッド
         //=コンストラクタ
         //初期状態で持っておいてほしい情報をここで代入する
-        this.name = name;
-        this.gakuseki = gakuseki;
-        this.credits = credits;
+        this.name = ”Tomoko Fujii";
+        this.gakuseki = "b2202020";
+        this.credits = 20;
 	}
 }
 ```
