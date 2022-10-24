@@ -11,3 +11,5 @@
 [・Lecture5 継承](Lecture/Lecture5.md)
 
 [・Lecture6 例外処理](Lecture/Lecture6.md)
+
+[・Lecture7 最後のまとめ](Lecture/Lecture7.md)
