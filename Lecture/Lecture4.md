@@ -11,7 +11,7 @@
 |protected|同一クラス/同一パッケージ/サブクラスのみ参照可能|
 |(なし/package private)|同一クラス/同一パッケージのみ参照可能|
 
-理解し辛い人は、とりあえず全ての[フィールド/メソッド](https://github.com/KazukiOtomo/ProjectMemberDocument/blob/main/Lectures/Lecture2.md)をprivateとして定義し、必要に応じてprotectedやpublicにすると良い。  
+__理解し辛い人は、とりあえず全ての[フィールド/メソッド](https://github.com/KazukiOtomo/ProjectMemberDocument/blob/main/Lectures/Lecture2.md)をprivateとして定義し、必要に応じてprotectedやpublicにすると良い。__ 
 
 ```java
 public class Television {
@@ -38,11 +38,11 @@ public class Television {
 どのクラスにおいても、全てのフィールドは基本的にprivateもしくはprotected修飾子が付加されているため、外部からアクセスすることが出来ない。そこで、外部からアクセスする必要がある[フィールド](https://github.com/Cist-ProjectMember/ProjectMemberDocuments/blob/master/2020s/course/lectures/lecture02.md#%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%81%A8%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89)にのみ、setter(セッター)、getter(ゲッター)という[メソッド](https://github.com/Cist-ProjectMember/ProjectMemberDocuments/blob/master/2020s/course/lectures/lecture02.md#%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%81%A8%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89)をpublicで定義する。セッターとゲッターをまとめてアクセサと呼ぶ。アクセサはメソッド名の命名に規則があり、それぞれ  
 
 ```java
-public void setChannel(int channel) {
+public void setChannel(int channel) {　//外部からprivateもしくはprotected修飾子のフィールド変数を変更するときに用いる
 	this.channel = channel;
 }
 
-public int getChannel() {
+public int getChannel() {　//外部からprivateもしくはprotected修飾子のフィールド変数の値を取得するときに用いる
 	return channel;
 }
 ```
