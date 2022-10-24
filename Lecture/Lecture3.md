@@ -264,9 +264,9 @@ VegetableクラスとExercise3_4クラスを作成し、Exercise3_4クラスの�
 
 
 #### Vegetable
-* [フィールド](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture2.md)
+* [フィールド](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture2.md#フィールドとメソッド)
   * 野菜の名前を格納するString型のnameと値段を格納するint型のvalueを持つようにすること。    
-* [コンストラクタ](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture2.md)
+* [コンストラクタ](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture2.md#コンストラクタと初期化)
   * コンストラクタの引数はString型のnameとint型のvalueとなるようにすること。
   * コンストラクタで引数のString型のnameとint型のvalueをフィールドのnameとvalueにセットできるようにすること。
 * print()
