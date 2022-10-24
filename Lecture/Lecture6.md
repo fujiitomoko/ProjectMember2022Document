@@ -21,6 +21,7 @@
 
 例外処理を実現するプログラム上の仕組みや文法を例外ハンドラと呼ぶ。
 Javaにおいて、例外処理をするには try-catch文 を用いる。  
+try{}の{}内のことをtry句、catch{}の{}内のことをcatch句と呼ぶ。
 try句には例外が発生する可能性のある処理を記述し、もし実際に例外が投げられた場合はcatch句に処理が移行する。  
 catch句への処理の移行は、try句の処理が残っていたとしても例外が発生すれば強制的に移行し、catch句の処理が終わった後でも続きから再開することは無い。
 
@@ -120,7 +121,7 @@ SQLException		//入出力先のデータベースに異常があった
 ```java
 
 NullPointerException		//メソッドを利用しようとしたオブジェクトや変数がnull(空)だった
-IndexOutOfBoundsException	//配列やCollectionsのサイズを超えた
+IndexOutOfBoundsException	//配列(要素数の宣言必要)やCollections(要素数の宣言不要)のサイズを超えた
 IllegalArgumentException	//メソッドに不適切な引数を渡した
 ClassCastException		//キャストできないクラスに変換しようとした
 
