@@ -175,12 +175,12 @@ student.credits = 25;
 intやdoubleなどと同じく、メソッドの引数として、インスタンスを渡すことができる。
 
 ```java
-// Enemyクラスは既に定義されているものとする
+// Subjectクラスは既に定義されているものとする
 class Student {
     // 授業のインスタンス
 	Subject subject = new Subject();	
 
-    //powerの数値分敵のhpを減らす
+    //教科(subject) の持つ credits分 生徒(student)の持つ credits に足す
 	void sumOfCredits(Subject subject){
 		credits += subject.credits ; 
 	}
