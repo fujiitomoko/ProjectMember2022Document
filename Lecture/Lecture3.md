@@ -35,7 +35,7 @@ Javaには様々なライブラリが存在する。
 
 クラスライブラリのScannerをimportし、実際に使用する場合、以下のように記述する。  
 補足:
-* 大体の場合はIDEが自動的にimportしてくれる。
+* 大体の場合はIDE(統合開発環境*今回はIntelliJ)が自動的にimportしてくれる。
 * 全く同じ名称のクラスが別のライブラリに存在する場合もあるため、その際は注意してインポートする。
 
 ```java
@@ -136,6 +136,7 @@ students.add(new Student(“鈴木”,20));		// 鈴木を末尾(1番目)に追�
 //studentsの要素数分繰り返えしを行う
 for(int i = 0; i < students.size(); i++){
 	students.get(i).getName();		// studentsのi番目に格納されている要素を参照し、getName()を呼び出す
+						// 今回の場合、sudentsのi番目生徒の名前を取得している
 }
 ```
 
