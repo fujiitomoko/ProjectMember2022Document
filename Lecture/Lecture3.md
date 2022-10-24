@@ -114,11 +114,11 @@ ArrayListクラスはインスタンス化することで以下のメソッド�
 ```java
 void add(Engine engine)			//Eクラスのengineインスタンスを末尾に追加する(例: Car型のcar、Tire型のtire )
 
-E get(int index)		//index番目の要素を返す(例: arrayList.get(15) )
+E get(int index)			//index番目の要素を返す(例: arrayList.get(15) )
 
 int size()				//要素数を返す(例: for(int i=0; i<arrayList.size(); i++){ /*  */ } )
 
-boolean isEmpty()	//要素数が0ならtrue、そうでなければfalseを返す
+boolean isEmpty()			//要素数が0ならtrue、そうでなければfalseを返す
 (例: if(arrayList.isEmpty()){  /* 処理 */  }  )
 
 remove(int index｜Object o)		//指定の要素を削除  
