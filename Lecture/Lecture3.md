@@ -131,8 +131,8 @@ remove(int index｜Object o)		//指定の要素を削除
 
 ```java
 ArrayList<Student> students = new ArrayList<>();
-students.add(new Student(“佐藤”,21));		// 佐藤を末尾(0番目)に追加
-students.add(new Student(“鈴木”,20));		// 鈴木を末尾(1番目)に追加
+students.add(new Student(“佐藤”,"b123456",25));		// 佐藤を末尾(0番目)に追加
+students.add(new Student(“鈴木”,"b234567",32));		// 鈴木を末尾(1番目)に追加
 //studentsの要素数分繰り返えしを行う
 for(int i = 0; i < students.size(); i++){
 	students.get(i).getName();		// studentsのi番目に格納されている要素を参照し、getName()を呼び出す
@@ -140,7 +140,7 @@ for(int i = 0; i < students.size(); i++){
 }
 ```
 
-## 拡張for文
+## 拡張for文(便利)
 
 Java SE 5.0以降の機能  
 for(int i...の書き方よりも記述を簡略化することができる。  
