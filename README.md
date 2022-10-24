@@ -5,3 +5,5 @@
 [・Lecture2 クラスとインスタンス](Lecture/Lecture2.md)
 
 [・Lecture3 ライブラリの利用](Lecture/Lecture3.md)
+
+[・Lecture4 ライブラリの利用](Lecture/Lecture4.md)
