@@ -61,27 +61,27 @@ public int getChannel() {　//外部からprivateもしくはprotected修飾子�
 ```java
 //class
 class Student {
-	String id;
 	String name;
+	String gakuseki;
 	
-	Student(String id, String name) {
-		this.id = id;
+	Student(String name, String gakuseki) {
 		this.name = name;
+		this.gakuseki = gakuseki;
 	}
 }
 
 //main
 public static void main(String[] args) {
-	Student student = new Student("b2190999", "大友一樹");
+	Student student = new Student("藤井智子", "b2202020");
 		
-	student.id = "aiueo";
+	student.gakuseki = "aiueo";
 	
-	System.out.println(student.id);
+	System.out.println(student.gakuseki);
 }
 
 //実行結果
 //学籍番号がなのに変な値になってる...
-id=aiueo
+gakuseki=aiueo
 ```
 
 このようなことを防ぐために、正しくカプセル化を行い、アクセサにより[フィールド](https://github.com/Cist-ProjectMember/ProjectMemberDocuments/blob/master/2020s/course/lectures/lecture02.md#%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%81%A8%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89)の値の取りうる範囲を制限する
@@ -89,22 +89,22 @@ id=aiueo
 ```java
 //class
 public class Student {
-	private String id;
 	private String name;
+	private String gakuseki;
 	
-	public Student(String id, String name) {
-		this.id = id;
+	public Student(String name, String gakuseki) {
 		this.name = name;
+		this.gakuseki = gakuseki;
 	}
 	
-	public String getId() {
-		return this.id;
+	public String getGakuseki() {
+		return this.gakueski;
 	}
 	
-	public void setId(String id) {
-		if (id.startWith("b2") && id.length <= 8){
-			//idが"b2"で始まる かつ ８文字以下である。
-			this.id = id;
+	public void setGakuseki(String gakuseki) {
+		if (gakuseki.startWith("b2") && gakuseki.length <= 8){
+			//gakusekiが"b2"で始まる かつ ８文字以下である。
+			this.gakuseki = gakuseki;
 		} else {
 			//error処理をする
 		}
@@ -113,15 +113,15 @@ public class Student {
 
 //main
 public static void main(String[] args) {
-	Student student = new Student("b2190999", "大友一樹");
+	Student student = new Student("藤井智子", "b2202020");
 		
 	//error処理をされて変更されない。
-	student.setId("aiueo");
-	System.out.println(student.getId());
+	student.setGakuseki("aiueo");
+	System.out.println(student.getGakuseki());
 }
 
 //実行結果
-id=b2190999
+gakuseki=b2190999
 ```
 
 上記のアクセサを利用することで正しく制限することができるようになる。
@@ -137,6 +137,11 @@ id=b2190999
 |-|private|
 |#|protected|
 |~|修飾子なし|
+
+
+【例 Studentクラス】
+![image](https://user-images.githubusercontent.com/85465441/197566026-3a8e5033-a907-4610-9802-497e41b08da0.png)
+
 
 ## 演習課題
 
