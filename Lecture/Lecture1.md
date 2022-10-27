@@ -5,8 +5,10 @@
 * 分からないときはすぐに担当のb3に聞く
   * 分からないことは次に持ち越さないこと
 * 予習/復習は必ず行うこと。
-  * 講習では知識がついているかの確認は取りません
   * 前回までの知識は全て習得しているものとして進行します
+* 課題はGithub上にpushすること
+  * Githubの使い方を学びます
+  * 課題の質問をするときなどにGithub上にあげておくと確認しやすいです
 * 時間外の質問/相談はSlackまたはZoomで  
   * Zoomで聞いた方がいいこともあります
 * 解答は確認程度に
@@ -15,13 +17,17 @@
   * 既読通知機能がSlackにはないので...
   * メンションを付けて送信すると、相手に通知されますが緊急時以外は極力避けましょう。
 
-### プロジェクトの作成
-* 【Windows】 Cドライブ直下に ”prmn2022a” フォルダを作る
+### Githubの準備
 
+
+
+### プロジェクトの作成
+* Githubにpushを行うローカルリポジトリを作成したディレクトリ下に ”prmn2022a” フォルダを作る
+
+【Windows】 
 ![image](https://user-images.githubusercontent.com/85465441/197341856-9763d53c-3af7-4131-bf76-7332c71fdbb6.png)
 
-* 【Mac】　MacintoshHD>ユーザ>ユーザ名　の下に"prmn2022a"フォルダを作る
-
+【Mac】
 ![image](https://user-images.githubusercontent.com/85465441/197341556-b677bd17-95f5-42d3-ae69-812cf5b34067.png)
 
 * IntelliJを起動後、Create New Project を選択する
