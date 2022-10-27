@@ -35,6 +35,7 @@
 * ローカルリポジトリの作成
 以下はWindowsの人はGitBash、Macの人はターミナルで操作する
   * リポジトリを作成するディレクトリを作成する
+  
   【Mac例】 MacintoshHD>ユーザ>ユーザ名>デスクトップにディレクトリを作成する場合
   ```
   cd
@@ -46,6 +47,8 @@
   【Windows例】 
 
   * Githubの画面に戻り、表示されているコマンドを順番に進める
+  ```
+  ```
   
   ![image](https://user-images.githubusercontent.com/85465441/198198525-d11bcbef-9710-4d7d-a65b-f540c87aa9a5.png)
   【例】
@@ -88,6 +91,12 @@
 今後特に指示が無い場合は ”lectureXX” の形式で作成する。
 
 例: 第3回講義では、 prmn2022a/lecture03/
+
+### Githubにプロジェクトをpushする
+
+* IntelliJのターミナルを開く
+
+![image](https://user-images.githubusercontent.com/85465441/198200330-18ced012-4f97-4718-b2b9-4b20a36f1e9a.png)
 
 
 ### クラスの作成
