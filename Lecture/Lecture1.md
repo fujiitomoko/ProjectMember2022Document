@@ -6,7 +6,7 @@
   * 分からないことは次に持ち越さないこと
 * 予習/復習は必ず行うこと。
   * 前回までの知識は全て習得しているものとして進行します
-* 課題はGithub上にpushすること
+* **課題はGithub上にpushすること**
   * Githubの使い方を学びます
   * 課題の質問をするときなどにGithub上にあげておくと確認しやすいです
 * 時間外の質問/相談はSlackまたはZoomで  
@@ -18,8 +18,40 @@
   * メンションを付けて送信すると、相手に通知されますが緊急時以外は極力避けましょう。
 
 ### Githubの準備
+以下はGithubアカウントがあることを想定して進めます
+* [Github](https://github.co.jp/)にアクセスし、サインインする
+* Github上にリモートリポジトリを作成する
+  * 以下のボタンをクリック
+  	![image](https://user-images.githubusercontent.com/85465441/198194537-d6917bea-8d1d-482f-8fa7-bbf2cff19543.png)
 
+  * 以下のように入力し、Create Repositoryをクリックする。ここまででリモートリポジトリは完成
+  
+	![image](https://user-images.githubusercontent.com/85465441/198195271-cd3f8614-ddc7-43a9-afef-e88dfd85cbff.png)
 
+  * リポジトリが作成されると以下のような画面が表示される。この画面のまま置いておく
+  
+	![image](https://user-images.githubusercontent.com/85465441/198196394-a332b98a-2c7a-4d8c-ac4d-f7792d9bb6b5.png)
+
+* ローカルリポジトリの作成
+以下はWindowsの人はGitBash、Macの人はターミナルで操作する
+  * リポジトリを作成するディレクトリを作成する
+  【Mac例】 MacintoshHD>ユーザ>ユーザ名>デスクトップにディレクトリを作成する場合
+  ```
+  cd
+  cd Desktop
+  mkdir Prmn2022a
+  cd Prmn2022a
+  ```
+  
+  【Windows例】 
+
+  * Githubの画面に戻り、表示されているコマンドを順番に進める
+  【例】
+  ![image](https://user-images.githubusercontent.com/85465441/198198525-d11bcbef-9710-4d7d-a65b-f540c87aa9a5.png)
+  ```
+  
+  ```
+  
 
 ### プロジェクトの作成
 * Githubにpushを行うローカルリポジトリを作成したディレクトリ下に ”prmn2022a” フォルダを作る
