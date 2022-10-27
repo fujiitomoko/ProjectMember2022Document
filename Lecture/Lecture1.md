@@ -21,7 +21,7 @@
 以下はGithubアカウントがあることを想定して進めます
 *Windowsの人はGitBash、Macの人はターミナルで git config でユーザ登録を行なっていない人は以下のコマンドから登録する
 ```
-$cd
+$ cd
 $ git config --global user.name [GitHubに登録したユーザ名]
 $ git config --global user.email [GitHubに登録したメールアドレス]
 ```
@@ -63,6 +63,22 @@ $ git config --global --list
   $ mkdir Prmn2022a
   $ cd Prmn2022a
   ````
+  
+  先にファイルをファイルを作成する方法もある
+  ローカルリポジトリを作成したいところで新規ファイルを保存してパスのコピーを行い、cdコマンドの後ろにつける
+  
+	【Windows】 
+	![image](https://user-images.githubusercontent.com/85465441/198379464-4e54be20-1bec-4619-abbf-825b1b450152.png)
+
+	【Mac】
+	![image](https://user-images.githubusercontent.com/85465441/198379592-a4fcfaaa-351b-4e4e-b6f4-f5d12d8aed14.png)
+ 
+  ```
+  $ cd ファイルのパス
+  ```
+  
+  
+  
 
   * Githubの画面に戻り、表示されているコマンドを順番に進める
   
@@ -83,11 +99,6 @@ $ git config --global --list
 ### プロジェクトの作成
 * Githubにpushを行うローカルリポジトリを作成したディレクトリ下に ”prmn2022a” フォルダを作る
 
-【Windows】 
-![image](https://user-images.githubusercontent.com/85465441/197341856-9763d53c-3af7-4131-bf76-7332c71fdbb6.png)
-
-【Mac】
-![image](https://user-images.githubusercontent.com/85465441/197341556-b677bd17-95f5-42d3-ae69-812cf5b34067.png)
 
 * IntelliJを起動後、Create New Project を選択する
 * 左側のメニューから Java を選択
