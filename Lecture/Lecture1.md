@@ -19,6 +19,17 @@
 
 ### Githubの準備
 以下はGithubアカウントがあることを想定して進めます
+*Windowsの人はGitBash、Macの人はターミナルで git config でユーザ登録を行なっていない人は以下のコマンドから登録する
+```
+$cd
+$ git config --global user.name [GitHubに登録したユーザ名]
+$ git config --global user.email [GitHubに登録したメールアドレス]
+```
+現在の登録を確認するコマンド
+```
+$ git config --global --list
+```
+
 * [Github](https://github.co.jp/)にアクセスし、サインインする
 * Github上にリモートリポジトリを作成する
   * 以下のボタンをクリック
@@ -36,19 +47,24 @@
 以下はWindowsの人はGitBash、Macの人はターミナルで操作する
   * リポジトリを作成するディレクトリを作成する
   
-  【Mac例】 MacintoshHD>ユーザ>ユーザ名>デスクトップにディレクトリを作成する場合
+  【Mac例】 MacintoshHD>ユーザ>ユーザ名>デスクトップ にディレクトリを作成する場合
   ```
-  cd
-  cd Desktop
-  mkdir Prmn2022a
-  cd Prmn2022a
+  $ cd
+  $ cd Desktop
+  $ mkdir Prmn2022a
+  $ cd Prmn2022a
   ```
   
-  【Windows例】 
+  【Windows例】 Windows(C:)>Users にディレクトリを作成する場合
+  ```
+  $ cd
+  $ cd c:
+  $ cd Users
+  $ mkdir Prmn2022a
+  $ cd Prmn2022a
+  ````
 
   * Githubの画面に戻り、表示されているコマンドを順番に進める
-  ```
-  ```
   
   ![image](https://user-images.githubusercontent.com/85465441/198198525-d11bcbef-9710-4d7d-a65b-f540c87aa9a5.png)
   【例】
