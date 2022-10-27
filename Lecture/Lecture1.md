@@ -46,12 +46,20 @@
   【Windows例】 
 
   * Githubの画面に戻り、表示されているコマンドを順番に進める
-  【例】
+  
   ![image](https://user-images.githubusercontent.com/85465441/198198525-d11bcbef-9710-4d7d-a65b-f540c87aa9a5.png)
-  ```
+  【例】
   
   ```
-  
+  echo "# Prmn2022a" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/fujiitomoko/Prmn2022a.gitgit 
+  git push -u origin main
+  ```
+* Githubのリポジトリ上にREADE.mdというファイルが上がっていることを確認する
 
 ### プロジェクトの作成
 * Githubにpushを行うローカルリポジトリを作成したディレクトリ下に ”prmn2022a” フォルダを作る
