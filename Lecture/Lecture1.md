@@ -19,7 +19,7 @@
 
 ### Githubの準備
 以下はGithubアカウントがあることを想定して進めます
-*Windowsの人はGitBash、Macの人はターミナルで git config でユーザ登録を行なっていない人は以下のコマンドから登録する
+*Windowsの人はGitBash(インストールはこちらのリンク→https://gitforwindows.org/)、Macの人はターミナルで git config でユーザ登録を行なっていない人は以下のコマンドから登録する
 ```
 $ cd
 $ git config --global user.name [GitHubに登録したユーザ名]
