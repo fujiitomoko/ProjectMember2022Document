@@ -172,6 +172,7 @@ Fighter1 は Fighter2 に 100 ダメージを与えた。
 Fighter2 の残り hitPoint : -20
 Fighter2 は倒れた。
 ```
+Githubにcommit/pushする
 
 ### 課題2
 
@@ -200,5 +201,6 @@ Fighter2 は倒れた。
 口座番号:12345 から 2000 円引き出せませんでした。残高:1000円です。
 口座番号:12345 から 500 円引き出しました。残高:500円です。
 ```
+Githubにcommit/pushする
 
 [目次へ](../README.md)
