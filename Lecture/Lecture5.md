@@ -216,7 +216,9 @@ Insectクラスを作成せよ。
 moveメソッドを作成せよ。  
 moveメソッドでは"歩いたよ"とコンソールに出力せよ。  
 
-mainメソッドにてInsectクラスをインスタンス化し、moveメソッドを呼び出せ。  
+mainメソッドにてInsectクラスをインスタンス化し、moveメソッドを呼び出せ。 
+
+Githubにcommit/pushする
 
 ### 課題2
 
@@ -225,13 +227,17 @@ Butterfly(チョウチョウ)クラスを作成しなさい。
 ButterflyはInsectを継承する.</br>
 Butterflyのmoveメソッドでは"飛んだよ"とコンソールに出力せよ。  
 
-mainメソッドにてButterflyクラスをインスタンス化し、moveメソッドを呼び出せ。  
+mainメソッドにてButterflyクラスをインスタンス化し、moveメソッドを呼び出せ。
+
+Githubにcommit/pushする
 
 ### 課題3
 
 Exercise5_3クラスを作成し、mainメソッドを作成せよ。  
 mainメソッドにてButterflyクラスのインスタンスを、Insect型の変数に代入せよ。  
-また、インスタンス化したButterflyのmoveメソッドを呼び出せ。  
+また、インスタンス化したButterflyのmoveメソッドを呼び出せ。 
+
+Githubにcommit/pushする
 
 ### 課題4
 
@@ -243,12 +249,16 @@ Locustのmoveメソッドでは"跳んだよ"とコンソールに出力せよ�
 
 mainメソッドにてLocustクラスをインスタンス化し、moveメソッドを呼び出せ。  
 
+Githubにcommit/pushする
+
 ### 課題5
 
 Exercise5_5クラスを作成し、mainメソッドを作成せよ。  
 
 mainメソッドにてLocustクラスのインスタンスを、Insect型の変数に代入せよ。  
-また、インスタンス化したLocustのmoveメソッドを呼び出せ。  
+また、インスタンス化したLocustのmoveメソッドを呼び出せ。 
+
+Githubにcommit/pushする
 
 ### 課題6
 
@@ -261,11 +271,15 @@ SwallowtailButterflyのmoveメソッドでは"綺麗に飛んだよ"とコンソ
 mainメソッドにてSwallowtailButterflyクラスのインスタンスを、Insect型の変数に代入せよ。  
 また、インスタンス化したSwallowtailButterflyのmoveメソッドを呼び出せ。  
 
+Githubにcommit/pushする
+
 ### 課題7
 
 Exercise5_7クラスを作成し、mainメソッドを作成せよ.  
 
 mainメソッドにてInsect,Butterfly,Locust,SwallowButterflyクラスのインスタンスをListに格納せよ。
 また、格納した４つのインスタンスからmoveメソッドを呼び出せ。
+
+Githubにcommit/pushする
 
 [目次へ](../README.md)
