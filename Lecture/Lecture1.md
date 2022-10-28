@@ -86,13 +86,13 @@ $ git config --global --list
   【例】
   
   ```
-  echo "# Prmn2022a" >> README.md
-  git init
-  git add README.md
-  git commit -m "first commit"
-  git branch -M main
-  git remote add origin https://github.com/fujiitomoko/Prmn2022a.gitgit 
-  git push -u origin main
+  $ echo "# Prmn2022a" >> README.md
+  $ git init
+  $ git add README.md
+  $ git commit -m "first commit"
+  $ git branch -M main
+  $ git remote add origin https://github.com/fujiitomoko/Prmn2022a.gitgit 
+  $ git push -u origin main
   ```
 * Githubのリポジトリ上にREADE.mdというファイルが上がっていることを確認する
 
@@ -119,11 +119,30 @@ $ git config --global --list
 
 例: 第3回講義では、 prmn2022a/lecture03/
 
+![image](https://user-images.githubusercontent.com/85465441/198200330-18ced012-4f97-4718-b2b9-4b20a36f1e9a.png)
+
 ### Githubにプロジェクトをpushする
 
 * IntelliJのターミナルを開く
 
-![image](https://user-images.githubusercontent.com/85465441/198200330-18ced012-4f97-4718-b2b9-4b20a36f1e9a.png)
+![image](https://user-images.githubusercontent.com/85465441/198525531-5e61a929-75da-40c4-bdc8-24b7b7523d0d.png)
+
+* 現在いる場所がプロジェクトになっていることを確認する
+
+![image](https://user-images.githubusercontent.com/85465441/198528268-70986441-812b-4a24-b6f6-f5d30be65c8e.png)
+
+* 以下のコマンドを入力する
+```
+$ git add .
+$ git commit -m "Github上に表示するコメント文(例:プロジェクト作成)"
+$ git push origin main
+```
+
+Githubのリポジトリを更新して、プロジェクがpush出来ていたらOK
+
+GitBashやターミナルでも同じコマンドでpushを行えるが、**ディレクトリをプロジェクトまで移動するのを忘れないように**
+pushはできるだけ細かく行い、コメント文は簡潔に([パッケージ](https://github.com/fujiitomoko/ProjectMember2022Document/edit/main/Lecture/Lecture1.md#パッケージ)・[クラス](https://github.com/fujiitomoko/ProjectMember2022Document/edit/main/Lecture/Lecture1.md#クラス)・[メソッド](https://github.com/fujiitomoko/ProjectMember2022Document/edit/main/Lecture/Lecture1.md#メソッド)を作ったときなど)
+
 
 
 ### クラスの作成
