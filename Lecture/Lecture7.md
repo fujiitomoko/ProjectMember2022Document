@@ -14,12 +14,14 @@ lecture07は今までの知識をフル活用かつ講習では教えていな�
 
 ### 課題1
 
-以下のクラスを作成しなさい。
+以下のクラスを作成しなさい。(クラス図を複数枚に分けています)
 
-![](http://www.plantuml.com/plantuml/png/RLFR2jim37ttLvZi9UcQifOzXL7QFOmDrZ785pYDQ4qTEyHkkyiA_TVzo6J5Tb8Oj44-biwHZfATTM9mrqunUv6w5uFe-549Q_VE3RAvElXoDBgMlu2_O-nWj7Kmy6oJyR9Sy6oTyKyIL1jl25cKWpoTNOc7rUfznW_c1hpw-toc7qDsSRpGHNdjopzRIcACf7aa-yrugKK7LOszw1EUpj9zDrAx2lzu54GJ3eqoAROzG1lY3fc_Ikig__ZWTRQCyRT199y9B3dozv5_oSSkn_YZCZ5Cv0NIYBRrbBbNgNnKL3SZMtz3rJbew7vMGMt9fMxX1nN7F7isTw98YBHx9GbeZ54WD68dSDz4XrWqWw3FmG-4yUd9PjXaLbAZed6iL898xISA07kmk0TQBMsX6zkVsqW0EKbfUKXPJwC6P1CHRrU3hYYe_KiNvtrCQxy1YhsPhnnBo9iPLlpFZGTBNK_l5hNUcpiCD1dMJNUlUqz9HLfS76YQvsMJeNaKte5kyGFw1m00)
+![](/out/skill/Exercise7.png)
+![](/out/monster/Exercise7.png)
+![](/out/battle/Exercise7.png)
+![](/out/etc/Exercise7.png)
 
 * Exercise7_1クラスを作成し、mainメソッドを作成しなさい。  
-* 上記のクラス図に従ってMonsterクラス、AttackMoveクラス、Fieldクラス、Moveクラスを作成しなさい。
 * クラス図で分からない部分があれば[ここ](https://plantuml.com/ja/class-diagram)を参照し、各自調べなさい。
 * Turtle、Monkey、Penguinの中から気に入った1匹を選択しインスタンス化しなさい。  
 * name(名前),hitpoint(体力),attack(攻撃力),block(防御力),speed(素早さ)は引数付きコンストラクタにて初期化しなさい。  
@@ -62,13 +64,13 @@ lecture07は今までの知識をフル活用かつ講習では教えていな�
 
 * 課題1でインスタンス化したモンスターとは別に野生のモンスターを新たにインスタンス化しなさい。  
 * FieldクラスのbattleStartメソッドでは素早さの判定、技の選択、Monsterの生死を判定する。
-* battleStartメソッドではlambdaも使用するため、調べてみてください。
 * MoveメソッドではmoveListの中に入っている3つの技の中から1つ選択する。 
 * 野生のモンスターは3つの技の中からランダムに1つを選択する。
 * バトルを行う際には、speedが高いモンスターから行動を開始しなさい。
 * whileを用いて、どちらかのMonsterが倒れるまで攻撃を繰り返しなさい。  
-* ダメージが発生するごとに残りHPを表示させなさい。  
-* ここでは、attack+power-block=ダメージとする。 
-* ifを用いて勝敗を表示しなさい。
+* ダメージが発生するごとに残りHPを表示させなさい。
+* ここでは、attack+power-block=ダメージとする。
+
+
 
 [目次へ](../README.md)
