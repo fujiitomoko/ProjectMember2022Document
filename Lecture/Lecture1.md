@@ -386,11 +386,15 @@ public class Main {
 System.out.println()関数を用いて自分の情報を表示させる</br>
 実行結果:`B21xxxxx Tomoko Fujii`
 
+Githubにcommit/pushする
+
 ## 課題1-2
 
 **int型変数studentNumberに学籍番号の数値の部分を代入**し、自分の情報を表示させる</br>
 ただし,**studentNumberを文字列連結させて表示させること**</br>
 実行結果:`B21xxxxx Tomoko Fujii`
+
+Githubにcommit/pushする
 
 ## 課題1-3
 
@@ -403,6 +407,7 @@ I am XX years old so I cannot drink liquor. //XXにageを表示
 // ageが20以上の時
 I am XX years old so I can drink liquor.  //XXにageを表示
 ```
+Githubにcommit/pushする
 
 ## 課題1-4
 
@@ -412,6 +417,8 @@ I am XX years old so I can drink liquor.  //XXにageを表示
 ただし、代入処理及び総和を求める処理には繰り返し文を用いて、総和をint型変数sumに代入して結果を出すこと<br> 
 for, whileのどちらの繰り返し文を用いるかは各自考え。
 なぜその繰り返し分を記述したのかの理由を答えよ。
+
+Githubにcommit/pushする
 
 ## 課題1-5
 
@@ -433,6 +440,7 @@ int型の1次元配列(テストの点数表)を引数にとる関数min(), max(
 平均点 63.2点
 .....
 ```
+Githubにcommit/pushする
 
 #### テストの点数表
 
@@ -441,5 +449,7 @@ int型の1次元配列(テストの点数表)を引数にとる関数min(), max(
 ```java
 int[] score = {41,85,72,38,80};
 ```
+
+Githubにcommit/pushする
 
 [目次へ](../README.md)
