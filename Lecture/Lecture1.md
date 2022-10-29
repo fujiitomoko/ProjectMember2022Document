@@ -38,7 +38,7 @@ $ git config --global --list
 
   * 以下のように入力し、Create Repositoryをクリックする。ここまででリモートリポジトリは完成
   
-	![image](https://user-images.githubusercontent.com/85465441/198195271-cd3f8614-ddc7-43a9-afef-e88dfd85cbff.png)
+	![image](https://user-images.githubusercontent.com/85465441/198837843-bdda13dc-eea0-480d-a158-0137176665b9.png)
 
   * リポジトリが作成されると以下のような画面が表示される。この画面のまま置いておく
   
