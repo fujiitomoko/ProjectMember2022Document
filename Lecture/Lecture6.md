@@ -152,7 +152,7 @@ Scannerクラスのnext〇〇()系のメソッドは、標準入力からの入�
 > 42.195
 入力した値:  42.195
 ```
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 ### 課題2
 
@@ -165,7 +165,7 @@ Randomクラスのインスタンスメソッド、
 Random random = new Random();
 System.out.println(random.nextInt(100));		// 0~99の値を表示
 ```
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 
 #### Exercise6_2クラス
@@ -185,7 +185,7 @@ Githubにcommit/pushする
 ArrayListの範囲外アクセスを確認しました.
 プログラムを終了します.
 ```
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 
 ### 課題3
@@ -207,7 +207,7 @@ Exercise6_2クラスを改良し、標準入力で32bit符号付整数以外が�
 整数以外の値が入力されました。
 プログラムを終了します。
 ```
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 上の例では、「整数以外の値が入力されました。」としているが、厳密にはint型は整数であっても-2147483648 ~ 2147483647の間の値しか扱うことができないことに注意。
 
