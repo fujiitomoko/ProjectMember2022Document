@@ -388,7 +388,7 @@ public class Main {
 System.out.println()関数を用いて自分の情報を表示させる</br>
 実行結果:`B21xxxxx Tomoko Fujii`
 
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 ## 課題1-2
 
