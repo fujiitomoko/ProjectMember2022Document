@@ -201,9 +201,8 @@ Exercise3_1クラスを作成し、その中にmain()メソッドを作成する
 > こんにちは。
 “こんにちは。” と入力されました
 ```
-
-Githubにcommit/pushする
-
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
+	
 以降、 実行結果のうち、 “>” から始まる行は標準入力に入力した文字列とする。
 
 ### 課題2
@@ -237,7 +236,7 @@ __注意__
 [0] これは1行目の文字列かもしれない
 [1] これは2行目の文字列だと思います
 ```
-Githubにcommit/pushする	
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)	
 
 ### 課題3
 
@@ -260,7 +259,7 @@ Exercise3_3クラスを作成し、その中にmain()メソッドを作成する
 > 42
 35 + 42 = 77
 ```
-Githubにcommit/pushする	
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)	
 
 ### 課題4
 
@@ -285,6 +284,6 @@ VegetableクラスとExercise3_4クラスを作成し、Exercise3_4クラスの�
   * インスタンス化する際には、Vegetableクラスのコンストラクタに("にんじん",117)、("たまねぎ",120)、("じゃがいも",154)の3セットを渡すこと。
   * 繰り返し処理を用いて作成したリスト内のインスタンスからprint()メソッドを呼び出し、野菜の名前と値段をすべて表示すること。  
 
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 	
 [目次へ](../README.md)
