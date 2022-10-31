@@ -396,7 +396,7 @@ System.out.println()関数を用いて自分の情報を表示させる</br>
 ただし,**studentNumberを文字列連結させて表示させること**</br>
 実行結果:`B21xxxxx Tomoko Fujii`
 
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 ## 課題1-3
 
@@ -409,7 +409,7 @@ I am XX years old so I cannot drink liquor. //XXにageを表示
 // ageが20以上の時
 I am XX years old so I can drink liquor.  //XXにageを表示
 ```
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 ## 課題1-4
 
@@ -420,7 +420,7 @@ Githubにcommit/pushする
 for, whileのどちらの繰り返し文を用いるかは各自考え。
 なぜその繰り返し分を記述したのかの理由を答えよ。
 
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 ## 課題1-5
 
@@ -452,6 +452,6 @@ Githubにcommit/pushする
 int[] score = {41,85,72,38,80};
 ```
 
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 [目次へ](../README.md)
