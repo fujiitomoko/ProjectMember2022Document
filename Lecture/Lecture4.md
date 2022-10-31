@@ -121,7 +121,7 @@ public static void main(String[] args) {
 }
 
 //実行結果
-gakuseki=b2190999
+gakuseki=b2202020
 ```
 
 上記のアクセサを利用することで正しく制限することができるようになる。
