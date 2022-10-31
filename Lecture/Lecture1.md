@@ -93,7 +93,7 @@ $ git config --global --list
   $ git add README.md
   $ git commit -m "first commit"
   $ git branch -M main
-  $ git remote add origin https://github.com/fujiitomoko/Prmn2022a.gitgit 
+  $ git remote add origin https://github.com/fujiitomoko/Prmn2022a.git
   $ git push -u origin main
   ```
 * Githubのリポジトリ上にREADE.mdというファイルが上がっていることを確認する
