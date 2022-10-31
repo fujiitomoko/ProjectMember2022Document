@@ -149,7 +149,7 @@ gakuseki=b2202020
 
 以下のクラスを作成せよ。  
 
-![](http://www.plantuml.com/plantuml/png/JOx1JiOW48JlF0L7Y9fuvjHUZ5wCIPzWssxQJM5fO5kZndUN-fC_723Bp7p3TbaWoH6yoXln3Wc2dZpat8ia6W_1jodoGD-edzM_eLzeMGNJZz9FAyb791PNJddkyHDJdHa2ka4IyQAKVgYGQOb7NO5hRFAsv444fiqWO_Xo5RRkZ3GNatBlwKHZtHYZH-2YBIYljTlSWxaHsv_jTTsWTmXNKTtqLtN8yn7y7m00)
+![](http://www.plantuml.com/plantuml/png/JP31QeSm38VlVOeUbJdOkIUzZEqo1Zv1rA31DfKsEhQnTr_uKwI7blPBlbzA-ooGv0pUv9tuW0J1pXvo7aGIJQVW-nnvf1-qB-PHiA-qReBfrzZdZUGp4elJfTSZVc4gPuQ0RjGCNesnJqLgQgEpjz3Pgh_LVX21UM-GCNox8hVkYhHeaVBWwSAcTLEC7e6LhIXl9LkvxifonUh1Tv1A7pfNXVBIFzCZB_eT_m00)
 * Exercise4_1クラスを作成しmainメソッドを作成せよ。
 * クラス図を見ながらFighterクラスを作成せよ。
 * attack()では引数で受け取ったFighterのHPを自分のpower分減らし、与えたダメージ量と、ダメージを与えたということを表示する。
