@@ -278,7 +278,7 @@ Humanをmain()メソッドでインスタンス化しprint()を呼び出した�
 学生:ひろし 20歳です。
 ```
 
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 ### 課題2(発展)
 
@@ -308,7 +308,7 @@ main()ではCarとGasStationをインスタンス化し、GasStationで給油を
 燃料を1消費して走りました。
 ```
 
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 ### 課題3(発展)
 
@@ -335,6 +335,6 @@ Carにタイヤとエンジンを組み込みなさい。
 rpm = 4000 でエンジンを始動させました。
 fuelを1消費して走りました。
 ```
-Githubにcommit/pushする
+[Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
 
 [目次へ](../README.md)
