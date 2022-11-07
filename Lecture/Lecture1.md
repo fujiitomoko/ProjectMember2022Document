@@ -56,11 +56,12 @@ $ git config --global --list
   $ cd Prmn2022a
   ```
   
-  【Windows例】 Windows(C:)>Users にディレクトリを作成する場合
+  【Windows例】 Windows(C:)>Users>ユーザ名 にディレクトリを作成する場合
   ```
   $ cd
   $ cd c:
   $ cd Users
+  $ cd ユーザ名
   $ mkdir Prmn2022a
   $ cd Prmn2022a
   ````
