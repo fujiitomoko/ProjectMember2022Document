@@ -323,7 +323,7 @@ Carにタイヤとエンジンを組み込みなさい。
 
 ここまで到達した学生は Exercise2-3クラスのmain()で、
 * Tire型の配列tires(最大要素数4,要素数4)をインスタンス化(sizeは全て65)
-* Engine型のengineをインスタンス化(rpmは4,000)
+* Engine型のengineをインスタンス化(rpmは400)
 * これらをCarのコンストラクタに渡してCar型のcarをインスタンス化
 * GasStation型のgasStationをインスタンス化し、refuel()でcarに給油する
 * CarのstartEngine()、run()を呼び出しなさい
@@ -332,7 +332,7 @@ Carにタイヤとエンジンを組み込みなさい。
 
 ```java
 給油したことによりfuelが20増えました。
-rpm = 4000 でエンジンを始動させました。
+rpm = 400 でエンジンを始動させました。
 fuelを1消費して走りました。
 ```
 [Githubにcommit/pushする](https://github.com/fujiitomoko/ProjectMember2022Document/blob/main/Lecture/Lecture1.md#Githubにプロジェクトをpushする)
